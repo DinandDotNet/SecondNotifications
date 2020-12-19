@@ -1,0 +1,13 @@
+﻿<div asp-validation-summary="All" class="text-danger"></div>
+@{
+    var messages = new SecondNotification().GetNotification();
+    foreach (var message in messages)
+    {
+        <div class="alert @message.Item2 alert-dismissable col-lg-12">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            <h3>
+                <label>@message.Item1</label>
+            </h3>
+        </div>
+    }
+}
