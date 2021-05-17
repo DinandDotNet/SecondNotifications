@@ -1,0 +1,2 @@
+nuget push -source https://f.feedz.io/secondsoft/secondpackage/nuget/index.json -ApiKey T-kIsSmTCOPgyY3kvy23U84XWzrCeXCtmBJ3U "c:\GIT\SecondNotifications\SecondNotificationsPack\bin\Debug\SecondNotifications.1.0.4.nupkg"
+@pause
